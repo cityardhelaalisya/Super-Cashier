@@ -1,5 +1,5 @@
 from transaction import Transaction
-from opsi_pengiriman import OpsiPengiriman
+
 
 """Test Case 1
 Menambahkan barang belanjaan berupa Ayam Goreng : [2, 20000] dan Pasta gigi : [3, 15000]
