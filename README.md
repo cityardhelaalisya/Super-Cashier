@@ -1,17 +1,16 @@
 # Super-Cashier  
 
 **Latar Belakang Masalah**  
-Supermarket memerlukan Self-Service Kasir yang mempermudah customer untuk memasukkan item yang dibeli, jumlah item yang dibeli, dan harga item yang dibeli dan fitur lainnya.  
-Oleh karena itu, self-service kasir akan dibuat dengan beberapa fitur di bawah ini agar aplikasi self-service kasir dapat berjalan lancar.  
+Sebuah Supermarket memerlukan sebuah aplikasi Self-Service Kasir yang digunakan untuk mempermudah customer dalam berbelanja seperti untuk memasukkan item yang dibeli, jumlah item yang dibeli, harga item yang dibeli dan fitur lainnya. Oleh karena itu, Self-Service Kasir akan dibuat dengan beberapa fitur di bawah ini agar aplikasi ini dapat berjalan dengan lancar.  
 
 **Requirements**  
 Berikut ini adalah beberapa fitur yang akan ditemukan di Aplikasi Self-Service Kasir:  
 1. Fitur untuk membuat ID customer serta memulai proses transaksi
-2. Fitur untuk menambahkan rincian produk yang  dibeli seperti nama, jumlah, dan harga
+2. Fitur untuk menambahkan produk yang dibeli dengan rincian seperti nama, jumlah, dan harga produk
 3. Fitur untuk memperbarui data-data produk yang dibeli
 4. Fitur untuk menghapus salah satu data produk yang sudah ditambahkan  
 5. FItur untuk menghapus semua produk yang ditambahkan
-6. Fitur untuk mengecek kembali produk yang sudah dibeli dan akan mengeluarkan output benar atau tidaknya pesanan
+6. Fitur untuk mengecek kembali produk yang sudah dibeli dan akan mengeluarkan output benar atau tidaknya pesanan customer
 7. Fitur untuk menghitung total belanjaan customer. Terdapat diskon jika memenuhi ketentuan sebagai berikut:
    a. Diskon 5%, jika total belanja di atas Rp. 200.000,-  
    b. Diskon 8%, jika total belanja di atas Rp. 300.000,-  
@@ -23,9 +22,9 @@ Berikut ini adalah beberapa fitur yang akan ditemukan di Aplikasi Self-Service K
   
 **Functions**<br>
 Berikut ini adalah Class dan Method yang terdapat di Aplikasi Self-Service Kasir:  
-1. Transaction(): Class object yang digunakan untuk menjalankan proses transaksi  
+1. Transaction(): Class object yang digunakan untuk membuat ID customer dan menjalankan proses transaksi  
 2. add_item(): method untuk menambahkan item dan memerlukan input berupa nama, jumlah, dan harga  
-3. update_item() : dengan fitur ini, customer dapat mengubah nama produk di update_item_name(nama item, nama item terbaru), jumlah produk di update_item_qty(nama item, jumlah item), harga produk di update_item_price(nama item, harga item)  
+3. update_item() : customer dapat mengubah nama produk di update_item_name(nama item, nama item terbaru), jumlah produk di update_item_qty(nama item, jumlah item), harga produk di update_item_price(nama item, harga item)  
 4. delete_item(): memerlukan input nama item untuk menjalankan fungsinya yaitu untuk menghapus salah satu item barang yang dibeli
 5. reset_transaction(): tidak memerlukan input dan akan menghapus seluruh item barang yang ada di data
 6. check_order(): tidak memerlukan input dan output akan terbagi menjadi dua yaitu "Pemesanan sudah benar" jika tidak ada kesalahan input dan "Terdapat kesalahan input data" jika inputan ada yang salah  
