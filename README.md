@@ -18,8 +18,9 @@ Berikut ini adalah beberapa fitur yang akan ditemukan di Aplikasi Self-Service K
    c. Diskon 10%, jika total belanja di atas Rp. 500.000,-
 
 
-**Flowchart**
-
+**Flowchart**  
+![flowchart super cashier drawio](https://github.com/user-attachments/assets/b96ca1db-3ea1-4f36-88f3-ab247f76c818)
+  
 **Functions**
 Berikut ini adalah beberapa function yang terdapat di Aplikasi Self-Service Kasir:  
 1. Transaction(): Class object yang digunakan untuk menjalankan proses transaksi  
@@ -31,7 +32,7 @@ Berikut ini adalah beberapa function yang terdapat di Aplikasi Self-Service Kasi
 7. total_price(): tidak memerlukan inputan dan akan menghitung total harga beserta diskon jika sudah memenuhi syarat yang diperlukan
 
 
-**Test Case**
+**Test Case**  
 Berikut ini adalah test case yang sudah dilakukan:  
 Test Case 1:  
 Customer ingin menambahkan dua item baru menggunakan method add_item(). Item yang ditambahkan adalah sebagai berikut:  
